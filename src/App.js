@@ -31,6 +31,7 @@ function App() {
         <ModalBlock flg={isOpen} />
       <hr/>
       <h2>コンポーネントから呼び出す</h2>
+      <p>URLに「?id=true」と打ち込んだらモーダルが表示される</p>
       {isOpen && <ModalBlock flg={isOpen} /> }
     </div>
   );
